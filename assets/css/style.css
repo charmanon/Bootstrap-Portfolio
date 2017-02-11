@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/ravenna.png");
 }
 
 * {
@@ -31,9 +31,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-h1,
-h2,
-h3 {
+#heading {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
   font-weight: 700;
@@ -46,13 +44,17 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
-h2,
-h3 {
+#headingh3{
+  font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 22px;
 }
 
 
 /*header*/
+
+.navbar-brand{
+  color:#fff;
+}
 
 #masthead {
   position: fixed;
@@ -66,12 +68,11 @@ h3 {
 }
 
 #logo {
-  width: 250px;
+  width: 320px;
   height: 90px;
-  float: left;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
-  line-height: 90px;
+  line-height: 66px;
   color: #fff;
   font-weight: 700;
   font-size: 30px;
@@ -79,23 +80,25 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
-  float: right;
-  margin-top: 25px;
-}
+
 
 nav a {
-  margin-top: 25px;
-  display: inline-block;
-  margin-left: 15px;
   padding-left: 15px;
   color: #999;
+
+}
+
+#navlink{
+  margin-top: 20px;
   text-decoration: none;
   line-height: 18px;
   border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+#navlinkfirst {
+  margin-top: 20px;
+  text-decoration: none;
+  line-height: 18px;
   border-left: 0 none;
 }
 
@@ -149,7 +152,7 @@ h3,
 /*main*/
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 20px;
 }
 
 .main-section {
@@ -183,7 +186,7 @@ h3,
   opacity: .8;
 }
 
-.work h3 {
+.work #headingh3 {
   position: absolute;
   bottom: 20px;
   margin-bottom: 0;
